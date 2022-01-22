@@ -9,7 +9,15 @@ body{
     font-family: sans-serif;
 }
 
+nav ul{
+    position: absolute;
+}
+
 ul li{
     list-style: none;
     display: inline;
+}
+
+main header{
+    position: relative;
 }
