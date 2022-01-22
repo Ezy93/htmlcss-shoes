@@ -10,12 +10,27 @@ body{
 }
 
 nav ul{
-    position: absolute;
+    position: fixed;
+    right: 0;
 }
 
 ul li{
     list-style: none;
-    display: inline;
+    display: inline-block;
+    background-color: lightgray; /* cambiare colore sfondo */
+    padding: 20px;
+    border-radius: 50% 50%;
+    width: 3.5em;
+    height: 3.5em;
+    text-align: center;
+    margin: 2em;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
 }
 
 main header{
