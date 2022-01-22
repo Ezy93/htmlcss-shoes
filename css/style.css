@@ -44,13 +44,28 @@ main section{
     position: relative;   
 }
 /* posizionare cosi solo le img, le scritte vanno cambiate le coordinate */
-section *{
-    position: absolute;
+section img{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-
+    
 }
+/* aggiustare grandezza font */
+section figcaption{
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% ,900% );
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+
+section * {
+    position: absolute;
+}
+
 
 #shoes1{
     background-color: red;
