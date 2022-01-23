@@ -1,0 +1,99 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav ul{
+    position: fixed;
+    right: 0;
+    z-index: 2;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50% 50%;
+    width: 3.5em;
+    height: 3.5em;
+    margin: 2em;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    background-color: lightgray;
+    text-decoration: underline;
+    box-shadow: 5px 5px 21px black
+}
+
+
+main header{
+    position: relative;
+}
+
+main section{
+    width: 100vw;
+    height: 100vh; 
+    position: relative;   
+}
+
+section img{
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+section figcaption{
+    font-size: 3.6em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+section figcaption, ul li{
+    text-align: center;
+}
+
+section div{
+    top: 80%;
+    left: 49%;
+    width: 45%;
+    transform: translate(-50% ,-50% );
+}
+
+
+
+section img, section div {
+    position: absolute;
+}
+
+
+#shoes1{
+    background-color: red;
+}
+
+#shoes2{
+    background-color: green;
+}
+
+#shoes3{
+    background-color: yellow;
+    color: green;
+}
+
+#shoes1 , #shoes2{
+    color: yellow;
+}
