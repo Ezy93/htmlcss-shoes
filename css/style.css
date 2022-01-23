@@ -43,26 +43,31 @@ main section{
     height: 100vh; 
     position: relative;   
 }
-/* posizionare cosi solo le img, le scritte vanno cambiate le coordinate */
+
 section img{
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50% , -50%);
     
 }
-/* aggiustare grandezza font */
+
 section figcaption{
-    top: 10%;
-    left: 50%;
-    transform: translate(-50% ,900% );
-    font-size: 2em;
+    font-size: 3.6em;
     text-transform: uppercase;
     font-weight: 900;
+    text-align: center;
+}
+
+section div{
+    top: 80%;
+    left: 49%;
+    width: 45%;
+    transform: translate(-50% ,-50% );
 }
 
 
 
-section * {
+section img, section div {
     position: absolute;
 }
 
@@ -77,4 +82,9 @@ section * {
 
 #shoes3{
     background-color: yellow;
+    color: green;
+}
+
+#shoes1 , #shoes2{
+    color: yellow;
 }
