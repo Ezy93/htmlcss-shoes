@@ -23,7 +23,6 @@ ul li{
     border-radius: 50% 50%;
     width: 3.5em;
     height: 3.5em;
-    text-align: center;
     margin: 2em;
     font-weight: 900;
     font-size: 1.2em;
@@ -55,6 +54,9 @@ section figcaption{
     font-size: 3.6em;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+section figcaption, ul li{
     text-align: center;
 }
 
