@@ -9,7 +9,7 @@ body{
     font-family: sans-serif;
 }
 
-nav ul{
+nav{
     position: fixed;
     right: 0;
     z-index: 2;
